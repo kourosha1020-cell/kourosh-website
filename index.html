@@ -101,6 +101,26 @@
             color: #aaaaaa;
             font-size: 16px;
         }
+        pre {
+    background-color: #111;
+    color: #00ff88;
+    border: 1px solid #00ff88;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    width: 85%;
+    margin: 30px auto;
+    text-align: left;
+    overflow-x: auto;
+    white-space: pre;
+    tab-size: 4;
+    line-height: 1.7;
+}
+
+pre code {
+    font-family: Consolas, monospace;
+    font-size: 14px;
+}
     </style>
 </head>
 
@@ -129,14 +149,10 @@
     </a>
 
     <hr>
+```html
+<h2>PYTHON CALCULATOR</h2>
 
-    <h2>PYTHON CALCULATOR</h2>
-
-    <p class="description">
-        A simple calculator project written in Python.
-    </p>
-
-    <pre><code>print("=== PYTHON CALCULATOR ===")
+<pre><code>print("=== PYTHON CALCULATOR ===")
 
 num1 = float(input("Enter first number: "))
 op = input("Choose operator (+ - * /): ")
@@ -155,6 +171,7 @@ elif op == "/":
         print("Cannot divide by zero!")
 else:
     print("Invalid operator!")</code></pre>
+```
 
 </body>
 </html>
